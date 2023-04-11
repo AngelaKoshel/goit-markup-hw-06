@@ -619,3 +619,24 @@ header {
 .modal-btn:hover > .modal-close-icon{
     fill:#FFFFFF;
 }
+.modal-title{
+    padding-top: 72px;
+    color:var(--color-navy-blue,#2E2F42);
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 16px;
+
+}
+.modal-form {
+  
+}
+
+.modal-input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(46, 47, 66, 40%);
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.modal-form-btn {}
