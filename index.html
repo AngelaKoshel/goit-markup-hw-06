@@ -441,12 +441,23 @@
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
-          <div class="">
-            <input type="text" name="user-name" class="modal-input" placeholder="Enter name">
-            <input type="text" name="user-email" class="modal-input" placeholder="Enter email">
-            <input type="text" name="user-tel" class="modal-input" placeholder="Enter phone">
-            <button type="button" class="modal-form-btn">Send</button>
+          <div class="modal-form-group">
+            <label for="user-name" class="modal-label">Name</label>
+            <input type="text" name="user-name" id="user-name" class="modal-input">
           </div>
+          <div class="modal-form-group">
+            <label for="user-tel" class="modal-label">Phone</label>
+            <input type="text" name="user-tel" id="user-tel" class="modal-input">
+          </div>
+          <div class="modal-form-group">
+            <label for="user-email" class="modal-label" >Email</label>
+            <input type="text" name="user-email" id="user-email" class="modal-input">
+          </div>
+          <div class="modal-form-group">
+            <label for="" class="modal-label"></label>
+            <textarea name="" id=""></textarea>
+          </div>
+          <button type="button" class="modal-form-btn">Send</button>
         </form>
       </div>
     </div>
