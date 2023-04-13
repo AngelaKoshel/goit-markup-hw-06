@@ -269,7 +269,7 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
+      <div class="container footer-wrap">
         <div class="footer-info">
           <div class="footer-box">
             <a href="./index.html" class="footer-logo link">
@@ -282,7 +282,7 @@
             </p>
           </div>
           <div class="footer-social">
-            <h2 class="footer-social-title">Social media</h2>
+            <p class="footer-social-title">Social media</p>
             <ul class="footer-social-list list">
               <li class="footer-social-item">
                 <a href="" class="footer-social-link">
@@ -314,6 +314,26 @@
               </li>
             </ul>
           </div>
+          <form class="footer-form">
+            <p class="footer-social-title">Subscribe</p>
+            <div class="subscribe-wrap">
+              <input
+                type="email"
+                name="subscribe-mail"
+                id="subscribe-mail"
+                class="subscribe-mail"
+                placeholder="E-mail"
+              />
+              <button type="submit" class="subscribe-btn">
+                Subscribe
+                <span>
+                  <svg class="footer-send-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-frame"></use>
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
