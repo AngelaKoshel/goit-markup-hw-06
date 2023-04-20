@@ -747,6 +747,11 @@ header {
     min-height: 40px;
     font-size: 12px;
     resize: none;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+    margin-bottom: 4px;
 }
 .modal-textarea:is(:focus, :hover){
     border-color: var(--hover-focus-color);
