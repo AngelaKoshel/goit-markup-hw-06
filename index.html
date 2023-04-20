@@ -485,17 +485,15 @@
             <label for="user-text" class="modal-label">Comment</label>
             <textarea name="user-text" id="user-text" placeholder="Text input" class="modal-textarea"></textarea>
           </div>
-          <div class="modal-privacy-wrap">
+          <label class="modal-privacy-wrap check-text">
               <input type="checkbox" name="privacy" id="privacy" class="input-check visually-hidden" value="true">
-              <label for="privacy" class="check-text"> 
-                <span>
-                  <svg class="modal-icon-vector" width="16" height="16">
-                    <use href="./images/icons.svg#icon-vector"></use>
-                  </svg>
-                </span> 
-                I accept the terms and conditions of the <a href="./index.html" class="modal-privacy-link"> Privacy Policy</a>
-              </label>
-          </div>
+              <span class="modal-svg-settings">
+                <svg class="modal-icon-vector" width="16" height="16">
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg>
+              </span> 
+              <span class="text-privacy">I accept the terms and conditions of the <a href="./index.html" class="modal-privacy-link"> Privacy Policy</a></span>
+          </label>
           <button type="button" class="modal-form-btn modal-animation-btn">Send</button>
         </form>
       </div>
